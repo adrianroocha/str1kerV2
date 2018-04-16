@@ -31,11 +31,24 @@ nav{
 }
 
 .nav-link{
-    text-transform: uppercase;
-    font-family: 'Archivo Black', sans-serif;
     color: rgb(124, 121, 121);
     text-align: center;
+    /* display: initial; */
 }
+
+.navLink{
+    color: rgb(124, 121, 121);
+    text-align: center;
+    /* display: initial; */
+}
+
+
+
+.navLink:hover{
+    color: #29FF77;
+    text-decoration: none;
+}
+
 
 .nav-link:hover{
     color: #29FF77;
@@ -119,6 +132,7 @@ nav{
     width: 100px;
     height: auto;
     margin-top: 5em;
+    position: relative;
     
 }
 
@@ -146,7 +160,17 @@ nav{
 }
 
 .textoSobre{
-    margin-top: 25vh;
+    margin-top: 20vh;
+}
+
+.caixa{
+    height: 55vh;
+    width: 70vh;
+    margin-top: 5vh;
+    justify-content: center;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 2vh;
+    position: relative;c
 }
 
 @media (max-width: 575px){
@@ -172,6 +196,9 @@ nav{
         width: 100vh;
     }
 
+    .caixa{
+        display: none;
+    }
 }    
 
 
