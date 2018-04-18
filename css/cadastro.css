@@ -1,0 +1,207 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #29FF77;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #29FF77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.logoNavDesk{
+    height: 38px;
+    width: auto;
+    margin-left: .5em;
+    margin-bottom: .3em;
+}
+
+.menuTop{
+    background-color: black;
+    opacity: .9;
+}
+
+.nav-bar{
+    padding: .9rem 1.3rem;
+}
+
+.nav-link{
+    
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.nav-link:hover{
+    color: #29FF77;
+}
+
+
+
+.btn-entrar{
+    border-color: white;
+    background-color: black;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    font-size: 1em;
+    border-radius: 0.7em;
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+    margin-right: 2em;
+    display: none;
+}
+
+.btn-entrar:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border: none;
+    float: right;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.nav-link.disabled {
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.nav-link.disabled:hover{
+    color: #29FF77;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 3.5vh;
+}
+
+.menuIcon{
+    height: 25px;
+    width: auto;
+}
+
+
+.cadastroEstrutura{
+    width: 100%;
+    height: 100vw;
+    padding: 2.5em 1em 1em 1em;
+    background-color: #29FF77;
+    justify-content: center;
+    text-align: center;
+}
+
+.blocoCadastro{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.imputSenha2{
+    margin-top: .7em;
+}
+
+.textoCadastro{
+    font-size: 5vh;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.imputsCadastro{
+	left: 25vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-cadastrar{
+    background-color: white;
+    color: #29FF77;
+    border-color: #29FF77;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    border-radius: 0.7em;
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.btn-cadastrar:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn:not(:disabled):not(.disabled){
+    margin-top: 1EM;
+}
+
+.form-control {
+    padding: .8rem .9rem;
+}
+
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        margin-right: 1em;       
+}
+
+.btn-entrar{
+    display: flex;
+}
+
+.nav-link.disabled {
+    color: white;
+    margin-bottom: 0vh;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 0;
+}
+
+.logoNavDesk{
+    margin-left: 1.5em;
+}
+
+.cadastroEstrutura{
+    height: 100vh;
+    padding: 7em 29em;
+}
+
+.textoCadastro{
+    margin-bottom: 2em;
+}
+}

@@ -91,6 +91,25 @@ nav{
     background-color: orange;
 }
 
+.btnProx{
+    background-color: rgb(29, 32, 46);
+    color: white;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    border-radius: 0.7em;
+    border-color: rgb(29, 32, 46);
+    box-shadow: 1px 1px 8px black;
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+}
+
+.btnProx:hover{
+    background-color: rgb(4, 14, 158);
+    border-color: rgb(4, 14, 158);
+}
 
 .basePlat{
     height: 100%;
@@ -160,7 +179,12 @@ nav{
 }
 
 .textoSobre{
-    margin-top: 20vh;
+    margin-top: 15vh;
+}
+
+.tc{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
 }
 
 .caixa{
@@ -170,10 +194,15 @@ nav{
     justify-content: center;
     box-shadow: 1px 1px 8px black;
     border-radius: 2vh;
-    position: relative;c
+    position: relative;
 }
 
-@media (max-width: 575px){
+.qts{
+    color: orangered;
+}
+
+
+@media (max-width:575px){
 
     .baseDireit{
         display: none;
@@ -202,7 +231,7 @@ nav{
 }    
 
 
-@media (max-width: 992px){
+@media(max-width: 992px){
     .btn-jornada{
         display: none;
     }
